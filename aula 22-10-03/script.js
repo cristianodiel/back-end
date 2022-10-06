@@ -19,7 +19,7 @@ const pessoas = []
         nome: nome,
         peso: peso,
         altura: altura,
-        imc: parseFloat(peso / (altura * altura))
+        imc: (parseFloat(peso / (altura * altura))).toFixed(2)
     }
     pessoas.push(pessoa);
     if (pessoa.imc<18.5){
@@ -35,4 +35,4 @@ const pessoas = []
     }
     novaPessoa = confirm("Deseja informar uma nova pessoa?");
 }while (novaPessoa);
-console.log(pessoas);
+console.table(pessoas);
