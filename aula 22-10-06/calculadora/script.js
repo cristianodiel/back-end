@@ -17,9 +17,13 @@ function multiplicacao(a,b){
 function divisao(a,b){
     return a/b;
 }
+
+
 function operacoes(a,b,cb){
     return cb(a,b);
 }
+
+
 function potencia(a,b){
     return a**b;
 }
