@@ -16,7 +16,6 @@ while(ativo){
     let opcao = parseInt(prompt("Digite a opcao desejada\n"+
                             "1 - Fazer um pedido\n"+
                             "2 - Ver promoções\n"+
-                            "3 - Visualizar itens vendidos\n"+
                             "4 - Consultar saldo do caixa\n"+
                             "5 - Encerrar aplicação\n"
                             ));
@@ -88,7 +87,7 @@ while(ativo){
 
         break
         case 3:
-            console.table(pedidos);
+            
 
         break
         case 4:
