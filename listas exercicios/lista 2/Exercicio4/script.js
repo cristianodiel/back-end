@@ -16,8 +16,6 @@ while(ativo){
     let opcao = parseInt(prompt("Digite a opcao desejada\n"+
                             "1 - Fazer um pedido\n"+
                             "2 - Ver promoções\n"+
-                            "3 - Visualizar itens vendidos\n"+
-                            "4 - Consultar saldo do caixa\n"+
                             "5 - Encerrar aplicação\n"
                             ));
 
@@ -87,17 +85,9 @@ while(ativo){
             alert("Menu:\n1 - Cachorro quente\n    1 por R$ 8,00\n    2 por R$ 15,00\n2 - Refrigerante lata\n    1 por R$ 6,00\n    2 por R$ 10,00\n3 - Chicletinho\n    1 por R$ 1,50\n    2 por R$ 2,00\n");
 
         break
-        case 3:
-            console.table(pedidos);
-
+        case 3:          
         break
         case 4:
-            saldo = 0;
-            for (let j =0; j<pedidos.length; j++){
-                saldo = saldo + pedidos[j].valorFinal - pedidos[j].custo * pedidos[j].quantidade;
-            }
-            console.log(saldo)
-
         break
         default:
         ativo = false
