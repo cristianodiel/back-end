@@ -1,0 +1,19 @@
+Questão 2 – Execute os seguintes comandos diretamente no console do navegador e observe os resultados. ( pode copiar e colar diretamente daqui)
+
+a)Função forEach:
+idosos.forEach(function(item){
+ console.log("nome:"+ item.nome)
+})
+Para cada elemento integrante do vetor, listou "nome:" seguido do nome do elemento.
+
+b)Função map:
+idosos.map(function (item){
+    return item.nome
+})
+Listou um vetor com os nomes (na forma de string) de cada elemento.
+
+c)Função filter:
+idosos.filter(function(item){
+        return item.idade >70 
+})
+Listou os elementos do vetor que atendiam a condição requerida, trazendo os objetos inteiros que cumprissem esse requisito.
