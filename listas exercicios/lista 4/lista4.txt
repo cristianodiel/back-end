@@ -1,0 +1,5 @@
+Questão 2
+a) Função forEach:
+Apresenteou a lista de nomes de cada integrante do vetor.
+
+b) Função map:
